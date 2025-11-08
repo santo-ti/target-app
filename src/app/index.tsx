@@ -6,7 +6,12 @@ export default function Index() {
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       <Text>Hello, world!</Text>
 
-      <Button title="Nova Meta" onPress={() => router.navigate("/target")} />
+      <Button title="Nova meta" onPress={() => router.navigate("/target")} />
+
+      <Button
+        title="Nova transação"
+        onPress={() => router.navigate("/transaction/520365")}
+      />
     </View>
   );
 }
