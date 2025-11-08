@@ -1,4 +1,4 @@
-package com.targetapp
+package com.santo.target
 
 import android.os.Build
 import android.os.Bundle
