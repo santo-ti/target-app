@@ -3,17 +3,23 @@
     "name": "target",
     "slug": "target",
     "version": "1.0.0",
+    "orientation": "portrait",
     "android": {
       "package": "com.santo.target",
       "edgeToEdgeEnabled": true,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#3D44CD"
-      }
+      },
+      "versionCode": 1
     },
     "ios": {
       "bundleIdentifier": "com.santo.target",
-      "icon": "./assets/ios-icon.png"
-    }
+      "icon": "./assets/ios-icon.png",
+      "buildNumber": "1.0.0"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
