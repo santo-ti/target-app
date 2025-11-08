@@ -1,5 +1,5 @@
 {
-  "name": "target-app",
+  "name": "target",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
