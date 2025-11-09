@@ -6,7 +6,7 @@ import {
 } from "@expo-google-fonts/inter";
 import { Stack } from "expo-router";
 
-import { Loading } from "@/components/Loading";
+import { Loading } from "@/components";
 import { colors } from "@/theme";
 
 export default function Layout() {

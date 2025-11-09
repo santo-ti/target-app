@@ -1,4 +1,4 @@
-import { HomeHeader } from "@/components/HomeHeader";
+import { HomeHeader } from "@/components";
 import { View } from "react-native";
 
 export default function Index() {
