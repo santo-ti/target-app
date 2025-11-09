@@ -8,7 +8,7 @@ import {
 
 import { styles } from "./styles";
 
-export type TargetProps = {
+export type ItemTargetProps = {
   id?: string;
   name: string;
   percentage: string;
@@ -17,10 +17,10 @@ export type TargetProps = {
 };
 
 type Props = TouchableOpacityProps & {
-  data: TargetProps;
+  data: ItemTargetProps;
 };
 
-export function TargetItem({ data, ...rest }: Props) {
+export function ItemTarget({ data, ...rest }: Props) {
   return (
     <TouchableOpacity style={styles.container} {...rest}>
       <View style={styles.content}>

@@ -2,7 +2,7 @@ import { View } from "react-native";
 
 import { HomeHeader } from "@/components/HomeHeader";
 import { ItemList } from "@/components/ItemList";
-import { TargetItem } from "@/components/TargetItem";
+import { ItemTarget } from "@/components/ItemTarget";
 
 const summaryData = {
   total: "R$ 2.680,00",
@@ -43,7 +43,7 @@ export default function Index() {
         title="Metas"
         data={targets}
         keyExtractor={(item) => item.id}
-        renderItem={({ item }) => <TargetItem data={item} />}
+        renderItem={({ item }) => <ItemTarget data={item} />}
         emptyMessage="Nenhuma meta! Clique em Nova meta para adicionar."
         containerStyle={{ paddingHorizontal: 24 }}
       />
