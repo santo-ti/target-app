@@ -8,12 +8,12 @@ import {
 import { colors } from "@/theme";
 import { styles } from "./styles";
 
-type Props = TouchableOpacityProps & {
+export type ButtonProps = TouchableOpacityProps & {
   title: string;
   isProcessing?: boolean;
 };
 
-export function Button({ title, isProcessing = false, ...rest }: Props) {
+export function Button({ title, isProcessing = false, ...rest }: ButtonProps) {
   return (
     <TouchableOpacity
       style={styles.container}
