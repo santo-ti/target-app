@@ -6,6 +6,10 @@ export type SeparatorProps = {
   color: ColorValue;
 };
 
-export function Separator({ color }: SeparatorProps) {
-  return <View style={[styles.container, { backgroundColor: color }]} />;
+type Props = {
+  data: SeparatorProps;
+};
+
+export function Separator({ data }: Props) {
+  return <View style={[styles.container, { backgroundColor: data.color }]} />;
 }

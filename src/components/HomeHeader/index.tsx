@@ -24,7 +24,7 @@ export function HomeHeader({ data }: Props) {
         <Text style={styles.total}>{data.total}</Text>
       </View>
 
-      <Separator color={colors.blue[400]} />
+      <Separator data={{ color: colors.blue[400] }} />
     </LinearGradient>
   );
 }
