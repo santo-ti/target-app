@@ -2,7 +2,7 @@ import { router } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import { View } from "react-native";
 
-import { Button } from "@/components/Button";
+import { CustomButton } from "@/components/CustomButton";
 import { HomeHeader } from "@/components/HomeHeader";
 import { ItemList } from "@/components/ItemList";
 import { ItemTarget } from "@/components/ItemTarget";
@@ -59,7 +59,10 @@ export default function Index() {
       />
 
       <View style={{ padding: 24, paddingBottom: 32 }}>
-        <Button title="Nova meta" onPress={() => router.navigate("/target")} />
+        <CustomButton
+          title="Nova meta"
+          onPress={() => router.navigate("/target")}
+        />
       </View>
     </View>
   );
