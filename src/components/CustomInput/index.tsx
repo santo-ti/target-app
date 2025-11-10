@@ -15,7 +15,7 @@ export function CustomInput({ label, ...rest }: CustomInputProps) {
       <TextInput
         style={styles.input}
         placeholderTextColor={colors.gray[400]}
-        autoFocus
+        keyboardType="ascii-capable"
         {...rest}
       />
     </View>
